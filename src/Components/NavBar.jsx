@@ -17,8 +17,8 @@ const NavBar = () => {
           </button>
         </div>
         <div>
-            <button className="upgrade px-3 py-1">Upgrade</button>
-            <button className="rounded-5 text-light border-0 py-1   px-3 bg-dark mx-5"> <span className="fs-5 text-secondary"><FaUserCircle/></span> Ultimate <VscTriangleDown/></button>
+            <button className="upgrade px-4 py-1">Upgrade</button>
+            <button className="rounded-5 text-light border-0 USER   px-4 bg-dark mx-5"> <span className="fs-5 text-secondary"><FaUserCircle/></span> Ultimate <VscTriangleDown/></button>
         </div>
       </div>
     </div>

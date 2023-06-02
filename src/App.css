@@ -29,6 +29,8 @@
   height: 12%;
   background-color: rgb(71, 32, 32);
   margin: 0;
+  position: sticky;
+  top: 0;
 }
 .mainpage{
   width: 100%;
@@ -38,8 +40,8 @@
   border: none;
   background-color: rgba(4, 1, 1, 0.5);
   color: white;
-  font-size: 20px;
-  padding: 0 7px 6px 7px; 
+  font-size: 18px;
+  padding: 0 9px 6px 7px; 
   border-radius: 100%;
 }
 title{
@@ -52,8 +54,23 @@ title{
   border-radius: 20px;
   color: white;
 }
+.upgrade:hover{
+  box-shadow: 0 0 0 1px white;
+}
 .iconss{
   border: none;
   background: none;
-  
+  color: gray;
+}
+.USER{
+  padding: 2px 7px 7px 7px;
+}
+.iconss:hover{
+  color: white;
+}
+.greetings{
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(to bottom, rgb(71, 32, 32), rgb(39, 24, 24), rgb(31, 4, 4));
+  background-size: cover;
 }

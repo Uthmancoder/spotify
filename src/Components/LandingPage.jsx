@@ -1,6 +1,7 @@
 import React from "react";
 import SideNav from "./SideNav";
 import NavBar from "./NavBar";
+import Greetings from "./Greetings";
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
         </div>
         <div className="mainpage">
           <NavBar />
+          <Greetings/>
         </div>
       </div>
     </div>
