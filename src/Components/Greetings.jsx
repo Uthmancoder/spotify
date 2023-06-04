@@ -1,7 +1,17 @@
-import React from "react";
+import React , {useEffect, useState} from "react";
 
 const Greetings = () => {
-    fect
+  const [data, setdata] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:1354/posts')
+      .then(response => response.json())
+      .then(data => {
+        setdata(data);
+        console.log(data);
+      });
+  }, []);
+  
+    
   const time = new Date();
   time.setHours(21);
   time.setMinutes(43);
